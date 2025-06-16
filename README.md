@@ -1,6 +1,6 @@
 # 🧑‍💻 Logan Zhang's Personal Portfolio
 
-A minimalist, responsive portfolio built using vanilla HTML, CSS, and JavaScript — hosted on GitHub Pages.
+A minimalist, responsive portfolio built using HTML, CSS, and JavaScript — hosted on GitHub Pages.
 
 ## ✨ Features
 
