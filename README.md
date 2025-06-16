@@ -31,4 +31,4 @@ A minimalist, responsive portfolio built using vanilla HTML, CSS, and JavaScript
 
 ## 📦 Deployment
 
-Hosted live using [GitHub Pages](https://pages.github.com/).
+<!-- Hosted live using [GitHub Pages](add in). -->
