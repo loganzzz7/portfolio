@@ -14,7 +14,7 @@ A minimalist, responsive portfolio built using vanilla HTML, CSS, and JavaScript
 
 - HTML5
 - CSS3 (custom + reset)
-- JavaScript (vanilla)
+- JavaScript
 - GitHub Pages (hosting)
 
 ## 📁 Folder Structure
