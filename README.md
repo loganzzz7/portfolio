@@ -18,6 +18,8 @@ A minimalist, responsive portfolio built using vanilla HTML, CSS, and JavaScript
 - GitHub Pages (hosting)
 
 ## 📁 Folder Structure
+<pre>
+```
 /portfolio/
 ├── index.html             # About page
 ├── projects.html          # Projects showcase
@@ -28,6 +30,8 @@ A minimalist, responsive portfolio built using vanilla HTML, CSS, and JavaScript
 ├── reset.css              # CSS reset
 ├── script.js              # Theme toggle script
 └── assets/                # Screenshots and images
+```
+</pre>
 
 ## 📦 Deployment
 
