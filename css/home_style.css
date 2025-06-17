@@ -165,13 +165,13 @@ nav a.active {
     line-height: 1.75rem;
 }
 
-.skills .tags span {
+/* .skills .tags span {
     background: #eee;
     padding: 0.5rem;
     margin: 0.2rem;
     display: inline-block;
     border-radius: 3px;
-}
+} */
 
 .skills h2 {
     padding: 0.5rem 0rem;
