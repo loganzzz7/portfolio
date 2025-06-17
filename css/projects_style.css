@@ -1,0 +1,93 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #BE7A36;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 0.2rem;
+    background: #eee;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a.active {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.container {
+    width: 800px;
+    height: 80vh;
+    overflow-y: auto;
+    padding: 1rem;
+    margin: 1rem;
+    border: 6px solid #6C3600;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.content {
+    padding: 0rem 1rem;
+}
+
+.content h1 {
+    padding: 1rem 0rem;
+}
+
+.project {
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #f9f9f9;
+}
+
+.project_name_link {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.project-link i {
+    color: #333;
+    background: #eee;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: color 1s ease;
+}
+
+.project-link:hover i {
+    background-color: #333;
+    color: #fff;
+    transition: color 1s ease;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.project .tags {
+    font-size: 0.85rem;
+    color: #555;
+}

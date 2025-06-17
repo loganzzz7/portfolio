@@ -19,16 +19,18 @@ A minimalist, responsive portfolio built using HTML, CSS, and JavaScript — hos
 
 ## 📁 Folder Structure
 <pre>
-/portfolio/
-├── index.html             # About page
-├── projects.html          # Projects showcase
-├── settings.html          # Dark mode toggle
-├── home_style.css         # About page styles
-├── projects_style.css     # Projects page styles
-├── settings_style.css     # Settings page styles
-├── reset.css              # CSS reset
-├── script.js              # Theme toggle script
-└── assets/                # Screenshots and images
+/PORTFOLIO/
+├── index.html
+├── projects.html
+├── settings.html
+├── README.md
+├── /assets/
+│   └── 3d_game.png
+├── /css/
+│   ├── reset.css
+│   ├── home_style.css      <-- page-specific
+│   ├── projects_style.css  <-- Page-specific
+│   └── settings_style.css  <-- Page-specific
 </pre>
 
 ## 📦 Deployment
