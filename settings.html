@@ -11,30 +11,34 @@
 </head>
 
 <body>
-    <div class="container">
+    <main class="container">
         <nav>
             <a href="index.html">About</a>
             <a href="projects.html">Projects</a>
             <a href="settings.html" class="active">Settings</a>
         </nav>
+        <section class="allcontent">
+            <div class="content">
+                <h1>Settings 🔧</h1>
 
-        <section class="content">
-            <h1>Settings 🔧</h1>
+                <div class="theme-toggle-box">
+                    <label class="theme-label" for="theme-toggle">Display Mode</label>
 
-            <div class="theme-toggle-box">
-                <label class="theme-label" for="theme-toggle">Display Mode</label>
-
-                <div class="toggle-container">
-                    <span class="emoji">🌞</span>
-                    <label class="switch">
-                        <input type="checkbox" id="theme-toggle">
-                        <span class="slider"></span>
-                    </label>
-                    <span class="emoji">🌚</span>
+                    <div class="toggle-container">
+                        <span class="emoji">🌞</span>
+                        <label class="switch">
+                            <input type="checkbox" id="theme-toggle">
+                            <span class="slider"></span>
+                        </label>
+                        <span class="emoji">🌚</span>
+                    </div>
                 </div>
             </div>
+            <div class="credit">
+                <p>This site was completely written in vanilla HTML and CSS by Zhengkun Zhang</p>
+            </div>
         </section>
-    </div>
+    </main>
     <script src="script.js"></script>
 </body>
 

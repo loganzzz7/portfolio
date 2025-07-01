@@ -88,6 +88,13 @@ nav a.active {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
+.allcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85%;
+}
+
 .content {
     padding: 0rem 1rem;
 }
@@ -166,4 +173,8 @@ input:checked+.slider {
 
 input:checked+.slider::before {
     transform: translateX(24px);
+}
+
+.credit {
+    padding: 1rem 0rem;
 }
