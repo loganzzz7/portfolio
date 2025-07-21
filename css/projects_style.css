@@ -52,13 +52,12 @@ body.dark-mode .project-link i {
     padding: 0.4rem 1rem;
     border-radius: 5px;
     font-size: 1rem;
-    transition: color 2s ease;
+    transition: background-color 1s ease, color 1s ease;
 }
 
 body.dark-mode .project-link:hover i {
     background-color: #eee;
     color: #333;
-    transition: color 2s ease;
 }
 
 nav {
@@ -121,19 +120,23 @@ nav a.active {
     margin-right: 1rem;
 } */
 
+.project-link {
+    display: inline-block;
+    transition: background-color 2s ease, color 2s ease;
+}
+
 .project-link i {
     color: #333;
     background: #eee;
     padding: 0.4rem 1rem;
     border-radius: 5px;
     font-size: 1rem;
-    transition: color 2s ease;
+    transition: background-color 1s ease, color 1s ease;
 }
 
 .project-link:hover i {
     background-color: #333;
     color: #fff;
-    transition: color 2s ease;
 }
 
 .project img {
