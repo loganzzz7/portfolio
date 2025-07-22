@@ -34,5 +34,4 @@ A minimalist, responsive portfolio built using HTML, CSS, and JavaScript — hos
 </pre>
 
 ## 📦 Deployment
-
-<!-- Hosted live using [GitHub Pages](add in). -->
+Hosted live using [GitHub Pages](https://loganzzz7.github.io/portfolio/)
