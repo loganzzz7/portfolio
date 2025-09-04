@@ -114,6 +114,7 @@ nav a.active {
     display: flex;
     gap: 0.5rem;
     margin-bottom: 0.5rem;
+    align-items: center;
 }
 
 /* .project_name_link a {
@@ -132,6 +133,7 @@ nav a.active {
     border-radius: 5px;
     font-size: 1rem;
     transition: background-color 1s ease, color 1s ease;
+    /* align-items: center; */
 }
 
 .project-link:hover i {
