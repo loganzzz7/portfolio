@@ -1,0 +1,149 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #BE7A36;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+body.dark-mode {
+    background-color: #171717;
+    color: #ffffff;
+    transition: 1s;
+}
+
+.container.dark-container {
+    background-color: #171717;
+    border-color: #444;
+    transition: 1s;
+}
+
+body.dark-mode .certificate {
+    background-color: #2a2a2a;
+    border-color: #444;
+}
+
+body.dark-mode .tags {
+    color: #EEEEEE;
+}
+
+body.dark-mode nav {
+    background-color: #1a1a1a;
+}
+
+body.dark-mode nav a {
+    color: #ccc;
+    border-color: #555;
+}
+
+body.dark-mode nav a.active {
+    background-color: #f1f1f1;
+    color: #111;
+}
+
+body.dark-mode .certificate-link i {
+    color: #eee;
+    background: #333;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+body.dark-mode .certificate-link:hover i {
+    background-color: #eee;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    background: #eee;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a.active {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.container {
+    width: 800px;
+    height: 80vh;
+    overflow-y: auto;
+    padding: 1rem;
+    margin: 1rem;
+    border: 6px solid #6C3600;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.content {
+    padding: 0rem 1rem;
+}
+
+.content h1 {
+    padding: 1rem 0rem;
+}
+
+.certificate {
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #f9f9f9;
+}
+
+.certificate_name_link {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+
+.certificate-link {
+    display: inline-block;
+    transition: background-color 2s ease, color 2s ease;
+}
+
+.certificate-link i {
+    color: #333;
+    background: #eee;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 1s ease, color 1s ease;
+    /* align-items: center; */
+}
+
+.certificate-link:hover i {
+    background-color: #333;
+    color: #fff;
+}
+
+.certificate img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.certificate .tags {
+    font-size: 0.85rem;
+    color: #555;
+}
